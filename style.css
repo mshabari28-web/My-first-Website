@@ -83,6 +83,7 @@ span{
 
     .phone-contact,
     .email-contact{
+        color: black;
         display: flex;
         align-items: center;
         gap: 10px;
