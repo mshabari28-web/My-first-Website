@@ -46,8 +46,12 @@ span{
     margin-right: 20px;
 }
 
-.contacts{
-    margin-top: 40px;
+.phone-contact{
+    margin-top:40px;
+}
+
+.email-contact{
+    margin-top:20px;
 }
 
 #seperator{
@@ -77,6 +81,12 @@ span{
         margin-right: 50px;
     }
 
+    .phone-contact,
+    .email-contact{
+        width: 100%;
+    }
+
+
     .navbar{
         padding:15px;
     }
@@ -89,5 +99,9 @@ span{
         display: flex;
         flex-direction: column;
         gap: 15px;
+    }
+
+    #seperator{
+        display: none;
     }
 }
